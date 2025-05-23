@@ -138,4 +138,4 @@ MIT License
 
 ---
 
-Made with ❤️ using PyTorch + Ray RLlib
+Made with using PyTorch + Ray RLlib
