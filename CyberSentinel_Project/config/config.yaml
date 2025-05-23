@@ -1,0 +1,24 @@
+# config/config.yaml
+
+kafka:
+  topic: cyber_logs
+  bootstrap_servers: localhost:9092
+
+anomaly_detection:
+  z_threshold: 2.0
+  rolling_window: 5
+
+rl:
+  state_size: 10
+  action_size: 3
+  gamma: 0.95
+  epsilon: 1.0
+  epsilon_min: 0.01
+  epsilon_decay: 0.995
+  learning_rate: 0.001
+
+logging:
+  log_file: logs/system.log
+
+siem:
+  format: json
