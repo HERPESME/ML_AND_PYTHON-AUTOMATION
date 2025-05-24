@@ -8,7 +8,7 @@ seaborn
 python-dotenv
 requests
 yfinance
-matplotlib yfinance
+matplotlib 
 
 # RL and Modeling
 torch
