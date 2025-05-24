@@ -76,5 +76,5 @@ def run_trained_agent(checkpoint_path):
 
 if __name__ == "__main__":
     ray.init(ignore_reinit_error=True)
-    checkpoint_path = "/Users/eeshansingh/ray_results/PPO_2025-05-23_23-08-38/PPO_StockTradingEnv-v0_c2c0e_00000_0_2025-05-23_23-08-38/checkpoint_000000"  # TODO: Set actual path
+    checkpoint_path = "/home/user/ray_results/PPO_2025-05-24_13-33-23/PPO_StockTradingEnv-v0_907bf_00000_0_2025-05-24_13-33-23/checkpoint_000000"  # TODO: Set actual path
     run_trained_agent(checkpoint_path)

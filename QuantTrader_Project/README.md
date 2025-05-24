@@ -53,8 +53,8 @@ QuantTrader/
 
 ### 1. Clone and Install
 ```bash
-git clone https://github.com/yourusername/QuantTrader.git
-cd QuantTrader
+git clone https://github.com/HERPESME/PYTHON-AUTOMATION.git
+cd QuantTrader_Project
 pip install -r requirements.txt
 ```
 
@@ -63,14 +63,14 @@ pip install -r requirements.txt
 python src/data/data_pipeline.py
 ```
 This will save historical OHLCV data to `data/historical/
-Remember to Add Date in first line of csv if not present`.
+!!!!!!! Remember to Add Date in first line of csv if not present`.
 
 ### 3. Run Real-Time Streaming (Optional) and Live Plotting (Optional)
 ```bash
 python src/data/realtime_stream.py
 python src/data/live_plot.py
 ```
-Prints real-time price updates (default: every 60 seconds for 5 minutes).
+Prints and Plots real-time price updates (default: every 60 seconds for 5 minutes).
 
 ### 4. Train the Agent
 ```bash
