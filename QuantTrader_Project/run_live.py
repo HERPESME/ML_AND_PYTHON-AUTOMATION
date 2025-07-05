@@ -51,7 +51,7 @@ config = (
 )
 
 # 🔒 Use fixed checkpoint path (same as in run.py)
-model_path = "/Users/eeshansingh/ray_results/PPO_2025-05-23_23-08-38/PPO_StockTradingEnv-v0_c2c0e_00000_0_2025-05-23_23-08-38/checkpoint_000000"
+model_path = "/home/user/ray_results/PPO_2025-05-24_13-33-23/PPO_StockTradingEnv-v0_907bf_00000_0_2025-05-24_13-33-23/checkpoint_000000"
 model = PPO(config=config)
 model.restore(model_path)
 
